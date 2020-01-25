@@ -8,6 +8,11 @@ public class ZipkinServerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ZipkinServerApplication.class, args);
+        new ZipkinServerApplication().meth();
     }
-
+    public  String meth(){
+        return "";
+    }
 }
+
+
